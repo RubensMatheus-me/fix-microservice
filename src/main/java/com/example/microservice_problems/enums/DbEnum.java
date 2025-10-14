@@ -1,8 +1,8 @@
 package com.example.microservice_problems.enums;
 
 public enum DbEnum {
-    DB1("db1"),
-    DB2("db2");
+    DB_COSTUMER("ms_customer"),
+    DB_SALE("ms_sale");
 
     private final String name;
     DbEnum(String name) {this.name = name;}
